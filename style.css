@@ -8,7 +8,7 @@
 
 body {
   height: 100vh;
-  background: url(bg.jpg) no-repeat center;
+  background: url(bg-1.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -23,13 +23,13 @@ body {
 }
 
 .card-header{
-  background: #2c3a47;
+  background: #3a4a58;
   padding: 60px 40px;
 }
 
 .pic{
   display: inline-block;
-  padding: 8px;
+  padding: 6px;
   background: linear-gradient(130deg, #74b9ff, #e66767);
   margin: auto;
   border-radius: 50%;
@@ -70,6 +70,11 @@ body {
   font-size: 18px;
   color: #e66767;
 }
+
+.desc-1 {
+    font-size: 18px;
+    color: #76b3a8;
+  }
 
 .sm {
   display: flex;
@@ -117,7 +122,7 @@ body {
   flex: 1;
   text-transform: uppercase;
   font-size: 13px;
-  color: #e66767;
+  color: #a8d65d;
 }
 
 .item span {
